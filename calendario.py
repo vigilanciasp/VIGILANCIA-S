@@ -73,7 +73,7 @@ with st.sidebar:
     if os.path.exists("logo.png"): 
         st.image("logo.png", use_container_width=True)
     else: 
-        st.headline("📋 VSP Sucre")
+        st.subheader("📋 VSP Sucre")
     
     st.markdown("### 🧭 Navegación")
     st.markdown("Seleccione el módulo al que desea acceder:")
